@@ -1,0 +1,32 @@
+###	MODO USB
+
+0. Opcional, mas faça uma cópia do seu programa principal ou use um programa simplificado apenas para ler e enviar dados do magnetômetro. É importante que outros dados não estejam sendo processados.
+	- No ESP32, coloque o programa 'MagCalibration' para rodar
+
+1. Configure a BaudRate da porta serial do microcontrolador para um valor determinado.
+	- Escolhi 57600 para diminuir os dados defeituosos em relação a 115200
+
+2. Como saída serial, imprima uma string no formato: "magX,magY,magZ\r\n"
+	- Os valores devem estar preferencialmente em unidades de uT
+	- Não envie nenhuma outra string durante o processo de calibração
+
+3. Execute o programa 'serialtest.py' que está na pasta '/InterfacePython' para verificar se os dados estão sendo enviados efetivamente. Após, feche o programa.
+
+4. No programa 'magcalibration.py' configure a mesma BaudRate do microcontrolador.
+
+5. Os gráficos gerados podem ser salvos em formato Tikz para LaTeX, basta alterar o valor de GENERATE TIKZ
+
+6. PLOTSIZE determina o tamanho da caixa em que as amostras estarão no gráfico, na mesma unidade do sensor
+
+7. O programa cleanplot diminui a quantidade de pontos do gráfico para que ele fique mais leve
+
+8. Execute o programa 'magcalibration.py' e movimente o magnetômetro até que dados suficientes sejam coletados.
+
+9. Ao final da coleta, clique no gráfico e o programa irá gerar automaticamente, na sequência, gráficos mostrando as correções da calibração.
+
+10. Ao final o programa entrega os valores utilizados na calibração de cada eixo.
+
+11. Esses valores devem ser incluidos internamente no microcontrolador.
+
+== Deve-se tomar cuidado com o efeito dos demais sensores no campo magnético medido.
+== É prudente realizar uma calibração com todos os sensores acoplados.

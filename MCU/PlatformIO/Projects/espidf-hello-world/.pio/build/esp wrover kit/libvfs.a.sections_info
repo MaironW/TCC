@@ -1,0 +1,409 @@
+In archive .pio/build/esp wrover kit/libvfs.a:
+
+vfs.o:     file format elf32-xtensa-le
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .literal.get_vfs_for_index 00000008  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  1 .literal.get_vfs_for_fd 00000008  00000000  00000000  0000003c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  2 .literal.get_local_fd 00000004  00000000  00000000  00000044  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  3 .literal.call_end_selects 00000004  00000000  00000000  00000048  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  4 .literal.set_global_fd_sets 00000010  00000000  00000000  0000004c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  5 .literal.get_vfs_for_path 00000010  00000000  00000000  0000005c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  6 .literal.esp_vfs_register_common$part$1 0000001c  00000000  00000000  0000006c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  7 .literal.translate_path 0000001c  00000000  00000000  00000088  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  8 .literal.esp_vfs_register 00000008  00000000  00000000  000000a4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  9 .literal.esp_vfs_register_fd_range 00000028  00000000  00000000  000000ac  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 10 .literal.esp_vfs_register_with_id 00000008  00000000  00000000  000000d4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 11 .literal.esp_vfs_unregister 00000028  00000000  00000000  000000dc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 12 .literal.esp_vfs_register_fd 00000014  00000000  00000000  00000104  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 13 .literal.esp_vfs_unregister_fd 00000018  00000000  00000000  00000118  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 14 .literal.esp_vfs_open 0000001c  00000000  00000000  00000130  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 15 .literal.esp_vfs_write 00000008  00000000  00000000  0000014c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 16 .literal.esp_vfs_lseek 00000008  00000000  00000000  00000154  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 17 .literal.esp_vfs_read 00000008  00000000  00000000  0000015c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 18 .literal.esp_vfs_close 0000001c  00000000  00000000  00000164  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 19 .literal.esp_vfs_fstat 00000008  00000000  00000000  00000180  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 20 .literal.esp_vfs_stat 00000008  00000000  00000000  00000188  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 21 .literal.esp_vfs_link 00000010  00000000  00000000  00000190  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 22 .literal.esp_vfs_unlink 00000008  00000000  00000000  000001a0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 23 .literal.esp_vfs_rename 00000010  00000000  00000000  000001a8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 24 .literal.opendir 0000000c  00000000  00000000  000001b8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 25 .literal.readdir 00000008  00000000  00000000  000001c4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 26 .literal.readdir_r 0000000c  00000000  00000000  000001cc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 27 .literal.telldir 0000000c  00000000  00000000  000001d8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 28 .literal.seekdir 0000000c  00000000  00000000  000001e4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 29 .literal.rewinddir 00000004  00000000  00000000  000001f0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 30 .literal.closedir 0000000c  00000000  00000000  000001f4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 31 .literal.mkdir 0000000c  00000000  00000000  00000200  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 32 .literal.rmdir 0000000c  00000000  00000000  0000020c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 33 .literal.fcntl 0000000c  00000000  00000000  00000218  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 34 .literal.ioctl 0000000c  00000000  00000000  00000224  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 35 .literal.fsync 0000000c  00000000  00000000  00000230  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 36 .literal.access 0000000c  00000000  00000000  0000023c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 37 .literal.truncate 0000000c  00000000  00000000  00000248  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 38 .literal.esp_vfs_select 00000070  00000000  00000000  00000254  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 39 .literal.esp_vfs_select_triggered 0000000c  00000000  00000000  000002c4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 40 .literal.esp_vfs_select_triggered_isr 0000000c  00000000  00000000  000002d0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 41 .literal.tcgetattr 0000000c  00000000  00000000  000002dc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 42 .literal.tcsetattr 0000000c  00000000  00000000  000002e8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 43 .literal.tcdrain 0000000c  00000000  00000000  000002f4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 44 .literal.tcflush 0000000c  00000000  00000000  00000300  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 45 .literal.tcflow 0000000c  00000000  00000000  0000030c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 46 .literal.tcgetsid 0000000c  00000000  00000000  00000318  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 47 .literal.tcsendbreak 0000000c  00000000  00000000  00000324  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 48 .literal.esp_vfs_utime 0000000c  00000000  00000000  00000330  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 49 .literal.esp_vfs_poll 0000000c  00000000  00000000  0000033c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 50 .text         00000000  00000000  00000000  00000348  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 51 .data         00000000  00000000  00000000  00000348  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+ 52 .bss          00000000  00000000  00000000  00000348  2**0
+                  ALLOC
+ 53 .text.get_vfs_for_index 0000001e  00000000  00000000  00000348  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 54 .text.get_vfs_for_fd 00000024  00000000  00000000  00000368  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 55 .text.get_local_fd 0000001c  00000000  00000000  0000038c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 56 .text.call_end_selects 0000002a  00000000  00000000  000003a8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 57 .text.esp_vfs_safe_fd_isset 0000001d  00000000  00000000  000003d4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 58 .text.set_global_fd_sets 000000d1  00000000  00000000  000003f4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 59 .text.get_vfs_for_path 0000008b  00000000  00000000  000004c8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 60 .text.esp_vfs_register_common$part$1 00000092  00000000  00000000  00000554  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 61 .rodata.str1.1 0000008a  00000000  00000000  000005e6  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 62 .text.translate_path 0000003e  00000000  00000000  00000670  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 63 .text.esp_vfs_register 00000050  00000000  00000000  000006b0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 64 .rodata       00000003  00000000  00000000  00000700  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 65 .text.esp_vfs_register_fd_range 000000d2  00000000  00000000  00000704  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 66 .text.esp_vfs_register_with_id 00000020  00000000  00000000  000007d8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 67 .text.esp_vfs_unregister 0000009e  00000000  00000000  000007f8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 68 .text.esp_vfs_register_fd 00000072  00000000  00000000  00000898  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 69 .text.esp_vfs_unregister_fd 00000061  00000000  00000000  0000090c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 70 .text.esp_vfs_open 000000b9  00000000  00000000  00000970  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 71 .text.esp_vfs_write 00000050  00000000  00000000  00000a2c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 72 .text.esp_vfs_lseek 00000050  00000000  00000000  00000a7c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 73 .text.esp_vfs_read 00000050  00000000  00000000  00000acc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 74 .text.esp_vfs_close 0000007d  00000000  00000000  00000b1c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 75 .text.esp_vfs_fstat 0000004c  00000000  00000000  00000b9c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 76 .text.esp_vfs_stat 00000045  00000000  00000000  00000be8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 77 .text.esp_vfs_link 00000068  00000000  00000000  00000c30  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 78 .text.esp_vfs_unlink 00000044  00000000  00000000  00000c98  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 79 .text.esp_vfs_rename 00000068  00000000  00000000  00000cdc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 80 .text.opendir 00000056  00000000  00000000  00000d44  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 81 .text.readdir 00000046  00000000  00000000  00000d9c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 82 .text.readdir_r 00000051  00000000  00000000  00000de4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 83 .text.telldir 00000049  00000000  00000000  00000e38  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 84 .text.seekdir 00000047  00000000  00000000  00000e84  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 85 .text.rewinddir 0000000f  00000000  00000000  00000ecc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 86 .text.closedir 00000049  00000000  00000000  00000edc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 87 .text.mkdir   00000051  00000000  00000000  00000f28  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 88 .text.rmdir   00000050  00000000  00000000  00000f7c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 89 .text.fcntl   00000070  00000000  00000000  00000fcc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 90 .text.ioctl   00000070  00000000  00000000  0000103c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 91 .text.fsync   00000051  00000000  00000000  000010ac  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 92 .text.access  00000051  00000000  00000000  00001100  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 93 .text.truncate 00000051  00000000  00000000  00001154  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 94 .text.esp_vfs_select 000002fe  00000000  00000000  000011a8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 95 .text.esp_vfs_select_triggered 0000003b  00000000  00000000  000014a8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 96 .text.esp_vfs_select_triggered_isr 0000003b  00000000  00000000  000014e4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 97 .text.tcgetattr 00000058  00000000  00000000  00001520  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 98 .text.tcsetattr 00000059  00000000  00000000  00001578  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 99 .text.tcdrain 00000051  00000000  00000000  000015d4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+100 .text.tcflush 00000056  00000000  00000000  00001628  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+101 .text.tcflow  00000058  00000000  00000000  00001680  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+102 .text.tcgetsid 00000051  00000000  00000000  000016d8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+103 .text.tcsendbreak 00000058  00000000  00000000  0000172c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+104 .text.esp_vfs_utime 00000051  00000000  00000000  00001784  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+105 .text.esp_vfs_poll 00000172  00000000  00000000  000017d8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+106 .rodata.__func__$6142 0000000f  00000000  00000000  0000194a  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+107 .bss.s_fd_table_lock 00000004  00000000  00000000  0000195c  2**2
+                  ALLOC
+108 .data.s_fd_table 000000c0  00000000  00000000  0000195c  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+109 .bss.s_vfs_count 00000004  00000000  00000000  00001a1c  2**2
+                  ALLOC
+110 .bss.s_vfs    00000020  00000000  00000000  00001a1c  2**2
+                  ALLOC
+111 .comment      0000003b  00000000  00000000  00001a1c  2**0
+                  CONTENTS, READONLY
+112 .xtensa.info  00000038  00000000  00000000  00001a57  2**0
+                  CONTENTS, READONLY
+113 .xt.lit       00000190  00000000  00000000  00001a8f  2**0
+                  CONTENTS, RELOC, READONLY
+114 .xt.prop      00001998  00000000  00000000  00001c1f  2**0
+                  CONTENTS, RELOC, READONLY
+
+vfs_uart.o:     file format elf32-xtensa-le
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .literal.uart_tx_char 00000004  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  1 .literal.uart_rx_char 00000004  00000000  00000000  00000038  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  2 .literal.uart_end_select 0000004c  00000000  00000000  0000003c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  3 .literal.select_notif_callback 00000020  00000000  00000000  00000088  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  4 .literal.uart_tcgetattr 00000074  00000000  00000000  000000a8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  5 .literal.uart_tcsetattr 00000078  00000000  00000000  0000011c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  6 .literal.uart_rx_char_via_driver 00000008  00000000  00000000  00000194  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  7 .literal.uart_tx_char_via_driver 00000004  00000000  00000000  0000019c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  8 .literal.uart_start_select 00000068  00000000  00000000  000001a0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  9 .literal.uart_tcflush 0000000c  00000000  00000000  00000208  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 10 .literal.uart_access 00000020  00000000  00000000  00000214  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 11 .literal.uart_fcntl 0000001c  00000000  00000000  00000234  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 12 .literal.uart_fstat 00000014  00000000  00000000  00000250  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 13 .literal.uart_close 00000010  00000000  00000000  00000264  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 14 .literal.unlikely.uart_return_char$part$9 00000010  00000000  00000000  00000274  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 15 .literal.uart_fsync 00000028  00000000  00000000  00000284  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 16 .literal.uart_write 00000024  00000000  00000000  000002ac  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 17 .literal.uart_read 00000030  00000000  00000000  000002d0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 18 .literal.uart_tcdrain 0000000c  00000000  00000000  00000300  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 19 .literal.uart_open 00000020  00000000  00000000  0000030c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 20 .literal.esp_vfs_dev_uart_register 00000054  00000000  00000000  0000032c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 21 .literal.esp_vfs_dev_uart_set_rx_line_endings 00000004  00000000  00000000  00000380  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 22 .literal.esp_vfs_dev_uart_set_tx_line_endings 00000004  00000000  00000000  00000384  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 23 .literal.esp_vfs_dev_uart_use_nonblocking 00000028  00000000  00000000  00000388  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 24 .literal.esp_vfs_dev_uart_use_driver 00000028  00000000  00000000  000003b0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 25 .text         00000000  00000000  00000000  000003d8  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 26 .data         00000000  00000000  00000000  000003d8  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+ 27 .bss          00000000  00000000  00000000  000003d8  2**0
+                  ALLOC
+ 28 .text.uart_tx_char 00000024  00000000  00000000  000003d8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 29 .text.uart_rx_char 0000001f  00000000  00000000  000003fc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 30 .text.uart_end_select 00000097  00000000  00000000  0000041c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 31 .text.select_notif_callback 0000008e  00000000  00000000  000004b4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 32 .text.uart_tcgetattr 000002ef  00000000  00000000  00000544  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 33 .text.uart_tcsetattr 000001ba  00000000  00000000  00000834  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 34 .rodata.uart_tcsetattr 0000007c  00000000  00000000  000009f0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, DATA
+ 35 .text.uart_rx_char_via_driver 0000002c  00000000  00000000  00000a6c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 36 .text.uart_tx_char_via_driver 00000014  00000000  00000000  00000a98  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 37 .text.uart_start_select 00000199  00000000  00000000  00000aac  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 38 .text.uart_tcflush 00000030  00000000  00000000  00000c48  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 39 .rodata.str1.1 000000c5  00000000  00000000  00000c78  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 40 .text.uart_access 00000052  00000000  00000000  00000d40  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 41 .text.uart_fcntl 00000073  00000000  00000000  00000d94  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 42 .text.uart_fstat 00000021  00000000  00000000  00000e08  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 43 .text.uart_close 0000001c  00000000  00000000  00000e2c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 44 .text.unlikely.uart_return_char$part$9 00000015  00000000  00000000  00000e48  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 45 .text.uart_fsync 0000005a  00000000  00000000  00000e60  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 46 .text.uart_write 0000007c  00000000  00000000  00000ebc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 47 .text.uart_read 000000fa  00000000  00000000  00000f38  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 48 .text.uart_tcdrain 0000002e  00000000  00000000  00001034  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 49 .text.uart_open 00000051  00000000  00000000  00001064  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 50 .text.esp_vfs_dev_uart_register 00000082  00000000  00000000  000010b8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 51 .text.esp_vfs_dev_uart_set_rx_line_endings 0000000e  00000000  00000000  0000113c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 52 .text.esp_vfs_dev_uart_set_tx_line_endings 0000000a  00000000  00000000  0000114c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 53 .text.esp_vfs_dev_uart_use_nonblocking 00000047  00000000  00000000  00001158  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 54 .text.esp_vfs_dev_uart_use_driver 00000047  00000000  00000000  000011a0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 55 .rodata.__func__$7243 0000000b  00000000  00000000  000011e7  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 56 .rodata.__func__$7259 00000011  00000000  00000000  000011f2  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 57 .rodata.__func__$7265 0000000a  00000000  00000000  00001203  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 58 .rodata.__func__$7281 0000000b  00000000  00000000  0000120d  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 59 .rodata.__func__$7277 0000000b  00000000  00000000  00001218  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 60 .rodata.__func__$7287 0000000b  00000000  00000000  00001223  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 61 .rodata.__func__$7298 0000000b  00000000  00000000  0000122e  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 62 .rodata.__func__$7466 0000001a  00000000  00000000  00001239  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 63 .data.s_uart_rx_func 0000000c  00000000  00000000  00001254  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, DATA
+ 64 .data.s_uart_tx_func 0000000c  00000000  00000000  00001260  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, DATA
+ 65 .data.s_rx_mode 0000000c  00000000  00000000  0000126c  2**2
+                  CONTENTS, ALLOC, LOAD, DATA
+ 66 .bss.s_tx_mode 00000004  00000000  00000000  00001278  2**2
+                  ALLOC
+ 67 .bss._errorfds_orig 00000004  00000000  00000000  00001278  2**2
+                  ALLOC
+ 68 .bss._writefds_orig 00000004  00000000  00000000  00001278  2**2
+                  ALLOC
+ 69 .bss._readfds_orig 00000004  00000000  00000000  00001278  2**2
+                  ALLOC
+ 70 .bss._errorfds 00000004  00000000  00000000  00001278  2**2
+                  ALLOC
+ 71 .bss._writefds 00000004  00000000  00000000  00001278  2**2
+                  ALLOC
+ 72 .bss._readfds 00000004  00000000  00000000  00001278  2**2
+                  ALLOC
+ 73 .bss._signal_sem 00000004  00000000  00000000  00001278  2**2
+                  ALLOC
+ 74 .bss.s_one_select_lock 00000004  00000000  00000000  00001278  2**2
+                  ALLOC
+ 75 .bss.s_non_blocking 00000003  00000000  00000000  00001278  2**0
+                  ALLOC
+ 76 .data.s_peek_char 0000000c  00000000  00000000  00001278  2**2
+                  CONTENTS, ALLOC, LOAD, DATA
+ 77 .bss.s_uart_write_locks 0000000c  00000000  00000000  00001284  2**2
+                  ALLOC
+ 78 .bss.s_uart_read_locks 0000000c  00000000  00000000  00001284  2**2
+                  ALLOC
+ 79 .rodata.s_uarts 0000000c  00000000  00000000  00001284  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, DATA
+ 80 .comment      0000003b  00000000  00000000  00001290  2**0
+                  CONTENTS, READONLY
+ 81 .xtensa.info  00000038  00000000  00000000  000012cb  2**0
+                  CONTENTS, READONLY
+ 82 .xt.lit       000000c8  00000000  00000000  00001303  2**0
+                  CONTENTS, RELOC, READONLY
+ 83 .xt.prop      00001284  00000000  00000000  000013cb  2**0
+                  CONTENTS, RELOC, READONLY

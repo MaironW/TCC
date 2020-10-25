@@ -1,0 +1,1 @@
+cmd_/home/mairon/Desktop/TCC/Códigos/InterfacePython/tty0tty-master/module/tty0tty.mod := { echo  /home/mairon/Desktop/TCC/Códigos/InterfacePython/tty0tty-master/module/tty0tty.o; echo; } > /home/mairon/Desktop/TCC/Códigos/InterfacePython/tty0tty-master/module/tty0tty.mod

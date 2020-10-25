@@ -1,0 +1,75 @@
+In archive .pio/build/esp wrover kit/libespcoredump.a:
+
+core_dump_common.o:     file format elf32-xtensa-le
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .literal.esp_core_dump_image_get 00000054  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  1 .text         00000000  00000000  00000000  00000088  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  2 .data         00000000  00000000  00000000  00000088  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+  3 .bss          00000000  00000000  00000000  00000088  2**0
+                  ALLOC
+  4 .text.esp_core_dump_init 00000005  00000000  00000000  00000088  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  5 .rodata.str1.1 000000ec  00000000  00000000  0000008d  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+  6 .text.esp_core_dump_image_get 0000012d  00000000  00000000  0000017c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  7 .dram1.13     00000015  00000000  00000000  000002a9  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+  8 .comment      0000003b  00000000  00000000  000002be  2**0
+                  CONTENTS, READONLY
+  9 .xtensa.info  00000038  00000000  00000000  000002f9  2**0
+                  CONTENTS, READONLY
+ 10 .xt.lit       00000008  00000000  00000000  00000331  2**0
+                  CONTENTS, RELOC, READONLY
+ 11 .xt.prop      000000e4  00000000  00000000  00000339  2**0
+                  CONTENTS, RELOC, READONLY
+
+core_dump_flash.o:     file format elf32-xtensa-le
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .text         00000000  00000000  00000000  00000034  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  1 .data         00000000  00000000  00000000  00000034  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+  2 .bss          00000000  00000000  00000000  00000034  2**0
+                  ALLOC
+  3 .comment      0000003b  00000000  00000000  00000034  2**0
+                  CONTENTS, READONLY
+  4 .xtensa.info  00000038  00000000  00000000  0000006f  2**0
+                  CONTENTS, READONLY
+
+core_dump_port.o:     file format elf32-xtensa-le
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .text         00000000  00000000  00000000  00000034  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  1 .data         00000000  00000000  00000000  00000034  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+  2 .bss          00000000  00000000  00000000  00000034  2**0
+                  ALLOC
+  3 .comment      0000003b  00000000  00000000  00000034  2**0
+                  CONTENTS, READONLY
+  4 .xtensa.info  00000038  00000000  00000000  0000006f  2**0
+                  CONTENTS, READONLY
+
+core_dump_uart.o:     file format elf32-xtensa-le
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .text         00000000  00000000  00000000  00000034  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  1 .data         00000000  00000000  00000000  00000034  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+  2 .bss          00000000  00000000  00000000  00000034  2**0
+                  ALLOC
+  3 .comment      0000003b  00000000  00000000  00000034  2**0
+                  CONTENTS, READONLY
+  4 .xtensa.info  00000038  00000000  00000000  0000006f  2**0
+                  CONTENTS, READONLY

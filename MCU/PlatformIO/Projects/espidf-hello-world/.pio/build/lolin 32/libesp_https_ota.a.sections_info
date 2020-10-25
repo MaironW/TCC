@@ -1,0 +1,26 @@
+In archive .pio/build/lolin 32/libesp_https_ota.a:
+
+esp_https_ota.o:     file format elf32-xtensa-le
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .literal.esp_https_ota 0000011c  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  1 .text         00000000  00000000  00000000  00000150  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  2 .data         00000000  00000000  00000000  00000150  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+  3 .bss          00000000  00000000  00000000  00000150  2**0
+                  ALLOC
+  4 .rodata.str1.1 00000452  00000000  00000000  00000150  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+  5 .text.esp_https_ota 000002c2  00000000  00000000  000005a4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  6 .comment      0000003b  00000000  00000000  00000866  2**0
+                  CONTENTS, READONLY
+  7 .xtensa.info  00000038  00000000  00000000  000008a1  2**0
+                  CONTENTS, READONLY
+  8 .xt.lit       00000008  00000000  00000000  000008d9  2**0
+                  CONTENTS, RELOC, READONLY
+  9 .xt.prop      00000174  00000000  00000000  000008e1  2**0
+                  CONTENTS, RELOC, READONLY

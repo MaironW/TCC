@@ -1,0 +1,22 @@
+Installation:
+
+pts:
+   make         -To compile 
+   ./tty0tty    -To run 	
+
+
+module:
+   make        	       -To compile 
+   sudo make install   -To install
+   sudo make uninstall -To uninstall
+
+
+
+Requirements:
+
+  for module build is necessary kernel-headers or kernel source.
+  To install kernel headrs in Debian based distro use the command:
+
+  sudo apt-get -y install linux-headers-`uname -r` 
+
+

@@ -1,0 +1,55 @@
+In archive .pio/build/esp wrover kit/libxtensa-debug-module.a:
+
+eri.o:     file format elf32-xtensa-le
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .text         00000000  00000000  00000000  00000034  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  1 .data         00000000  00000000  00000000  00000034  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+  2 .bss          00000000  00000000  00000000  00000034  2**0
+                  ALLOC
+  3 .text.eri_read 00000008  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  4 .text.eri_write 00000008  00000000  00000000  0000003c  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  5 .comment      0000003b  00000000  00000000  00000044  2**0
+                  CONTENTS, READONLY
+  6 .xtensa.info  00000038  00000000  00000000  0000007f  2**0
+                  CONTENTS, READONLY
+  7 .xt.prop      00000048  00000000  00000000  000000b7  2**0
+                  CONTENTS, RELOC, READONLY
+
+trax.o:     file format elf32-xtensa-le
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .literal.trax_enable 00000010  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  1 .literal.trax_start_trace 00000010  00000000  00000000  00000044  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  2 .literal.trax_trigger_traceend_after_delay 00000010  00000000  00000000  00000054  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  3 .text         00000000  00000000  00000000  00000064  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  4 .data         00000000  00000000  00000000  00000064  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+  5 .bss          00000000  00000000  00000000  00000064  2**0
+                  ALLOC
+  6 .rodata.str1.1 0000010d  00000000  00000000  00000064  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+  7 .text.trax_enable 00000021  00000000  00000000  00000174  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  8 .text.trax_start_trace 00000021  00000000  00000000  00000198  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  9 .text.trax_trigger_traceend_after_delay 00000021  00000000  00000000  000001bc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 10 .comment      0000003b  00000000  00000000  000001dd  2**0
+                  CONTENTS, READONLY
+ 11 .xtensa.info  00000038  00000000  00000000  00000218  2**0
+                  CONTENTS, READONLY
+ 12 .xt.lit       00000018  00000000  00000000  00000250  2**0
+                  CONTENTS, RELOC, READONLY
+ 13 .xt.prop      00000090  00000000  00000000  00000268  2**0
+                  CONTENTS, RELOC, READONLY

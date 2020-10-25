@@ -1,0 +1,960 @@
+In archive .pio/build/lolin 32/libaws_iot.a:
+
+aws_iot_jobs_interface.o:     file format elf32-xtensa-le
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .literal.aws_iot_jobs_subscribe_to_job_messages 0000000c  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  1 .literal.aws_iot_jobs_subscribe_to_all_job_messages 00000004  00000000  00000000  00000040  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  2 .literal.aws_iot_jobs_unsubscribe_from_job_messages 00000008  00000000  00000000  00000044  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  3 .literal.aws_iot_jobs_send_query 0000000c  00000000  00000000  0000004c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  4 .literal.aws_iot_jobs_start_next 0000000c  00000000  00000000  00000058  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  5 .literal.aws_iot_jobs_describe 0000000c  00000000  00000000  00000064  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  6 .literal.aws_iot_jobs_send_update 0000000c  00000000  00000000  00000070  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  7 .text         00000000  00000000  00000000  0000007c  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  8 .data         00000000  00000000  00000000  0000007c  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+  9 .bss          00000000  00000000  00000000  0000007c  2**0
+                  ALLOC
+ 10 .text.aws_iot_jobs_subscribe_to_job_messages 0000004a  00000000  00000000  0000007c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 11 .text.aws_iot_jobs_subscribe_to_all_job_messages 00000024  00000000  00000000  000000c8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 12 .text.aws_iot_jobs_unsubscribe_from_job_messages 0000001d  00000000  00000000  000000ec  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 13 .text.aws_iot_jobs_send_query 000000aa  00000000  00000000  0000010c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 14 .text.aws_iot_jobs_start_next 00000085  00000000  00000000  000001b8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 15 .text.aws_iot_jobs_describe 00000094  00000000  00000000  00000240  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 16 .text.aws_iot_jobs_send_update 0000008d  00000000  00000000  000002d4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 17 .comment      0000003b  00000000  00000000  00000361  2**0
+                  CONTENTS, READONLY
+ 18 .xtensa.info  00000038  00000000  00000000  0000039c  2**0
+                  CONTENTS, READONLY
+ 19 .xt.lit       00000038  00000000  00000000  000003d4  2**0
+                  CONTENTS, RELOC, READONLY
+ 20 .xt.prop      00000324  00000000  00000000  0000040c  2**0
+                  CONTENTS, RELOC, READONLY
+
+aws_iot_jobs_json.o:     file format elf32-xtensa-le
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .literal._printToBuffer 00000004  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  1 .literal._printBooleanValue 0000000c  00000000  00000000  00000038  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  2 .literal._printKey 0000000c  00000000  00000000  00000044  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  3 .literal._printStringValue 00000010  00000000  00000000  00000050  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  4 .literal.aws_iot_jobs_json_serialize_update_job_execution_request 00000068  00000000  00000000  00000060  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  5 .literal.aws_iot_jobs_json_serialize_client_token_only_request 00000014  00000000  00000000  000000c8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  6 .literal.aws_iot_jobs_json_serialize_describe_job_execution_request 00000030  00000000  00000000  000000dc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  7 .literal.aws_iot_jobs_json_serialize_start_next_job_execution_request 0000002c  00000000  00000000  0000010c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  8 .text         00000000  00000000  00000000  00000138  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  9 .data         00000000  00000000  00000000  00000138  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+ 10 .bss          00000000  00000000  00000000  00000138  2**0
+                  ALLOC
+ 11 .text._printToBuffer 00000058  00000000  00000000  00000138  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 12 .rodata.str1.1 0000009c  00000000  00000000  00000190  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 13 .text._printBooleanValue 00000015  00000000  00000000  0000022c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 14 .text._printKey 00000018  00000000  00000000  00000244  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 15 .text._printStringValue 0000001f  00000000  00000000  0000025c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 16 .text.aws_iot_jobs_json_serialize_update_job_execution_request 0000010e  00000000  00000000  0000027c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 17 .text.aws_iot_jobs_json_serialize_client_token_only_request 00000034  00000000  00000000  0000038c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 18 .text.aws_iot_jobs_json_serialize_describe_job_execution_request 00000084  00000000  00000000  000003c0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 19 .text.aws_iot_jobs_json_serialize_start_next_job_execution_request 00000070  00000000  00000000  00000444  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 20 .comment      0000003b  00000000  00000000  000004b4  2**0
+                  CONTENTS, READONLY
+ 21 .xtensa.info  00000038  00000000  00000000  000004ef  2**0
+                  CONTENTS, READONLY
+ 22 .xt.lit       00000040  00000000  00000000  00000527  2**0
+                  CONTENTS, RELOC, READONLY
+ 23 .xt.prop      000002a0  00000000  00000000  00000567  2**0
+                  CONTENTS, RELOC, READONLY
+
+aws_iot_jobs_topics.o:     file format elf32-xtensa-le
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .literal.aws_iot_jobs_get_api_topic 00000020  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  1 .text         00000000  00000000  00000000  00000054  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  2 .data         00000000  00000000  00000000  00000054  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+  3 .bss          00000000  00000000  00000000  00000054  2**0
+                  ALLOC
+  4 .rodata.str1.1 0000008e  00000000  00000000  00000054  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+  5 .text.aws_iot_jobs_get_api_topic 000000a6  00000000  00000000  000000e4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  6 .rodata.CSWTCH$4 00000010  00000000  00000000  0000018c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, DATA
+  7 .rodata.CSWTCH$1 0000001c  00000000  00000000  0000019c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, DATA
+  8 .comment      0000003b  00000000  00000000  000001b8  2**0
+                  CONTENTS, READONLY
+  9 .xtensa.info  00000038  00000000  00000000  000001f3  2**0
+                  CONTENTS, READONLY
+ 10 .xt.lit       00000008  00000000  00000000  0000022b  2**0
+                  CONTENTS, RELOC, READONLY
+ 11 .xt.prop      000000c0  00000000  00000000  00000233  2**0
+                  CONTENTS, RELOC, READONLY
+
+aws_iot_jobs_types.o:     file format elf32-xtensa-le
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .literal.aws_iot_jobs_map_string_to_job_status 00000030  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  1 .literal.aws_iot_jobs_map_status_to_string 0000001c  00000000  00000000  00000064  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  2 .text         00000000  00000000  00000000  00000080  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  3 .data         00000000  00000000  00000000  00000080  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+  4 .bss          00000000  00000000  00000000  00000080  2**0
+                  ALLOC
+  5 .text.aws_iot_jobs_map_string_to_job_status 00000082  00000000  00000000  00000080  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  6 .text.aws_iot_jobs_map_status_to_string 0000003a  00000000  00000000  00000104  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  7 .rodata.aws_iot_jobs_map_status_to_string 00000018  00000000  00000000  00000140  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, DATA
+  8 .rodata.str1.1 00000036  00000000  00000000  00000158  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+  9 .data.JOB_EXECUTION_REJECTED_STR 00000004  00000000  00000000  00000190  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, DATA
+ 10 .data.JOB_EXECUTION_CANCELED_STR 00000004  00000000  00000000  00000194  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, DATA
+ 11 .data.JOB_EXECUTION_SUCCEEDED_STR 00000004  00000000  00000000  00000198  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, DATA
+ 12 .data.JOB_EXECUTION_FAILED_STR 00000004  00000000  00000000  0000019c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, DATA
+ 13 .data.JOB_EXECUTION_IN_PROGRESS_STR 00000004  00000000  00000000  000001a0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, DATA
+ 14 .data.JOB_EXECUTION_QUEUED_STR 00000004  00000000  00000000  000001a4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, DATA
+ 15 .comment      0000003b  00000000  00000000  000001a8  2**0
+                  CONTENTS, READONLY
+ 16 .xtensa.info  00000038  00000000  00000000  000001e3  2**0
+                  CONTENTS, READONLY
+ 17 .xt.lit       00000010  00000000  00000000  0000021b  2**0
+                  CONTENTS, RELOC, READONLY
+ 18 .xt.prop      0000015c  00000000  00000000  0000022b  2**0
+                  CONTENTS, RELOC, READONLY
+
+aws_iot_json_utils.o:     file format elf32-xtensa-le
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .literal.jsoneq 00000008  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  1 .literal.parseUnsignedInteger32Value 00000020  00000000  00000000  0000003c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  2 .literal.parseUnsignedInteger16Value 00000020  00000000  00000000  0000005c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  3 .literal.parseUnsignedInteger8Value 0000002c  00000000  00000000  0000007c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  4 .literal.parseInteger32Value 00000020  00000000  00000000  000000a8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  5 .literal.parseInteger16Value 00000034  00000000  00000000  000000c8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  6 .literal.parseInteger8Value 0000002c  00000000  00000000  000000fc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  7 .literal.parseFloatValue 00000018  00000000  00000000  00000128  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  8 .literal.parseDoubleValue 00000018  00000000  00000000  00000140  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  9 .literal.parseBooleanValue 00000028  00000000  00000000  00000158  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 10 .literal.parseStringValue 00000020  00000000  00000000  00000180  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 11 .literal.findToken 00000014  00000000  00000000  000001a0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 12 .text         00000000  00000000  00000000  000001b4  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 13 .data         00000000  00000000  00000000  000001b4  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+ 14 .bss          00000000  00000000  00000000  000001b4  2**0
+                  ALLOC
+ 15 .text.jsoneq  0000003e  00000000  00000000  000001b4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 16 .rodata.str1.1 000002d0  00000000  00000000  000001f2  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 17 .text.parseUnsignedInteger32Value 00000057  00000000  00000000  000004c4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 18 .text.parseUnsignedInteger16Value 00000057  00000000  00000000  0000051c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 19 .text.parseUnsignedInteger8Value 0000007f  00000000  00000000  00000574  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 20 .text.parseInteger32Value 00000052  00000000  00000000  000005f4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 21 .text.parseInteger16Value 0000007f  00000000  00000000  00000648  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 22 .text.parseInteger8Value 0000007f  00000000  00000000  000006c8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 23 .text.parseFloatValue 0000003e  00000000  00000000  00000748  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 24 .text.parseDoubleValue 00000042  00000000  00000000  00000788  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 25 .text.parseBooleanValue 0000006d  00000000  00000000  000007cc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 26 .text.parseStringValue 00000069  00000000  00000000  0000083c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 27 .text.findToken 00000064  00000000  00000000  000008a8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 28 .comment      0000003b  00000000  00000000  0000090c  2**0
+                  CONTENTS, READONLY
+ 29 .xtensa.info  00000038  00000000  00000000  00000947  2**0
+                  CONTENTS, READONLY
+ 30 .xt.lit       00000060  00000000  00000000  0000097f  2**0
+                  CONTENTS, RELOC, READONLY
+ 31 .xt.prop      000004f8  00000000  00000000  000009df  2**0
+                  CONTENTS, RELOC, READONLY
+
+aws_iot_mqtt_client.o:     file format elf32-xtensa-le
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .literal.aws_iot_mqtt_client_lock_mutex 00000008  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  1 .literal.aws_iot_mqtt_client_unlock_mutex 00000004  00000000  00000000  0000003c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  2 .literal.aws_iot_mqtt_set_client_state 00000008  00000000  00000000  00000040  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  3 .literal.aws_iot_mqtt_set_connect_params 00000010  00000000  00000000  00000048  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  4 .literal.aws_iot_mqtt_free 00000014  00000000  00000000  00000058  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  5 .literal.aws_iot_mqtt_init 0000003c  00000000  00000000  0000006c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  6 .literal.aws_iot_mqtt_get_next_packet_id 00000004  00000000  00000000  000000a8  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  7 .literal.aws_iot_mqtt_is_client_connected 00000010  00000000  00000000  000000ac  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  8 .literal.aws_iot_is_autoreconnect_enabled 00000010  00000000  00000000  000000bc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  9 .text         00000000  00000000  00000000  000000cc  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 10 .data         00000000  00000000  00000000  000000cc  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+ 11 .bss          00000000  00000000  00000000  000000cc  2**0
+                  ALLOC
+ 12 .text.aws_iot_mqtt_get_client_state 0000000a  00000000  00000000  000000cc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 13 .text.aws_iot_mqtt_client_lock_mutex 00000036  00000000  00000000  000000d8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 14 .text.aws_iot_mqtt_client_unlock_mutex 00000024  00000000  00000000  00000110  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 15 .text.aws_iot_mqtt_set_client_state 0000003a  00000000  00000000  00000134  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 16 .rodata.str1.1 00000049  00000000  00000000  0000016e  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 17 .text.aws_iot_mqtt_set_connect_params 00000098  00000000  00000000  000001b8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 18 .text.aws_iot_mqtt_free 00000052  00000000  00000000  00000250  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 19 .rodata       0000003c  00000000  00000000  000002a4  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 20 .text.aws_iot_mqtt_init 00000158  00000000  00000000  000002e0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 21 .text.aws_iot_mqtt_get_next_packet_id 0000001a  00000000  00000000  00000438  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 22 .text.aws_iot_mqtt_is_client_connected 0000002e  00000000  00000000  00000454  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 23 .text.aws_iot_is_autoreconnect_enabled 00000025  00000000  00000000  00000484  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 24 .text.aws_iot_mqtt_autoreconnect_set_status 00000014  00000000  00000000  000004ac  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 25 .text.aws_iot_mqtt_set_disconnect_handler 00000025  00000000  00000000  000004c0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 26 .text.aws_iot_mqtt_get_network_disconnected_count 00000007  00000000  00000000  000004e8  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 27 .text.aws_iot_mqtt_reset_network_disconnected_count 00000009  00000000  00000000  000004f0  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 28 .rodata.iotClientConnectParamsDefault 0000003c  00000000  00000000  000004fc  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 29 .rodata.iotMqttWillOptionsDefault 00000018  00000000  00000000  00000538  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 30 .rodata.iotClientInitParamsDefault 00000034  00000000  00000000  00000550  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 31 .bss.pUsernameTemp 00000019  00000000  00000000  00000584  2**0
+                  ALLOC
+ 32 .comment      0000003b  00000000  00000000  00000584  2**0
+                  CONTENTS, READONLY
+ 33 .xtensa.info  00000038  00000000  00000000  000005bf  2**0
+                  CONTENTS, READONLY
+ 34 .xt.lit       00000048  00000000  00000000  000005f7  2**0
+                  CONTENTS, RELOC, READONLY
+ 35 .xt.prop      00000474  00000000  00000000  0000063f  2**0
+                  CONTENTS, RELOC, READONLY
+
+aws_iot_mqtt_client_common_internal.o:     file format elf32-xtensa-le
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .literal.aws_iot_mqtt_internal_get_final_packet_length_from_remaining_length 00000008  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  1 .literal.aws_iot_mqtt_internal_write_utf8_string 00000008  00000000  00000000  0000003c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  2 .literal.aws_iot_mqtt_internal_init_header 00000004  00000000  00000000  00000044  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  3 .literal.aws_iot_mqtt_internal_send_packet 0000000c  00000000  00000000  00000048  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  4 .literal.aws_iot_mqtt_internal_cycle_read 00000040  00000000  00000000  00000054  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  5 .literal.aws_iot_mqtt_internal_wait_for_read 00000008  00000000  00000000  00000094  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  6 .literal.aws_iot_mqtt_internal_serialize_zero 0000000c  00000000  00000000  0000009c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  7 .text         00000000  00000000  00000000  000000a8  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  8 .data         00000000  00000000  00000000  000000a8  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+  9 .bss          00000000  00000000  00000000  000000a8  2**0
+                  ALLOC
+ 10 .text._aws_iot_mqtt_internal_readWrapper 0000003b  00000000  00000000  000000a8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 11 .text.aws_iot_mqtt_internal_write_len_to_buffer 00000024  00000000  00000000  000000e4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 12 .text.aws_iot_mqtt_internal_decode_remaining_length_from_buffer 00000035  00000000  00000000  00000108  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 13 .text.aws_iot_mqtt_internal_get_final_packet_length_from_remaining_length 00000028  00000000  00000000  00000140  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 14 .text.aws_iot_mqtt_internal_read_uint16_t 00000019  00000000  00000000  00000168  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 15 .text.aws_iot_mqtt_internal_write_uint_16 0000001f  00000000  00000000  00000184  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 16 .text.aws_iot_mqtt_internal_read_char 00000010  00000000  00000000  000001a4  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 17 .text.aws_iot_mqtt_internal_write_char 00000010  00000000  00000000  000001b4  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 18 .text.aws_iot_mqtt_internal_write_utf8_string 00000026  00000000  00000000  000001c4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 19 .text.aws_iot_mqtt_internal_init_header 000000a2  00000000  00000000  000001ec  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 20 .rodata.aws_iot_mqtt_internal_init_header 00000038  00000000  00000000  00000290  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, DATA
+ 21 .text.aws_iot_mqtt_internal_send_packet 00000080  00000000  00000000  000002c8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 22 .text.aws_iot_mqtt_internal_cycle_read 000002fc  00000000  00000000  00000348  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 23 .text.aws_iot_mqtt_internal_flushBuffers 0000000c  00000000  00000000  00000644  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 24 .text.aws_iot_mqtt_internal_wait_for_read 0000004c  00000000  00000000  00000650  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 25 .text.aws_iot_mqtt_internal_serialize_zero 0000005a  00000000  00000000  0000069c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 26 .comment      0000003b  00000000  00000000  000006f6  2**0
+                  CONTENTS, READONLY
+ 27 .xtensa.info  00000038  00000000  00000000  00000731  2**0
+                  CONTENTS, READONLY
+ 28 .xt.lit       00000038  00000000  00000000  00000769  2**0
+                  CONTENTS, RELOC, READONLY
+ 29 .xt.prop      000007a4  00000000  00000000  000007a1  2**0
+                  CONTENTS, RELOC, READONLY
+
+aws_iot_mqtt_client_connect.o:     file format elf32-xtensa-le
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .literal.aws_iot_mqtt_connect 00000078  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  1 .literal._aws_iot_mqtt_internal_disconnect 00000010  00000000  00000000  000000ac  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  2 .literal.aws_iot_mqtt_disconnect 00000010  00000000  00000000  000000bc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  3 .literal.aws_iot_mqtt_attempt_reconnect 00000014  00000000  00000000  000000cc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  4 .text         00000000  00000000  00000000  000000e0  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  5 .data         00000000  00000000  00000000  000000e0  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+  6 .bss          00000000  00000000  00000000  000000e0  2**0
+                  ALLOC
+  7 .rodata.str1.1 00000005  00000000  00000000  000000e0  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+  8 .text.aws_iot_mqtt_connect 00000317  00000000  00000000  000000e8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  9 .rodata.aws_iot_mqtt_connect 00000018  00000000  00000000  00000400  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, DATA
+ 10 .text._aws_iot_mqtt_internal_disconnect 0000005a  00000000  00000000  00000418  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 11 .text.aws_iot_mqtt_disconnect 00000048  00000000  00000000  00000474  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 12 .text.aws_iot_mqtt_attempt_reconnect 00000050  00000000  00000000  000004bc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 13 .comment      0000003b  00000000  00000000  0000050c  2**0
+                  CONTENTS, READONLY
+ 14 .xtensa.info  00000038  00000000  00000000  00000547  2**0
+                  CONTENTS, READONLY
+ 15 .xt.lit       00000020  00000000  00000000  0000057f  2**0
+                  CONTENTS, RELOC, READONLY
+ 16 .xt.prop      00000420  00000000  00000000  0000059f  2**0
+                  CONTENTS, RELOC, READONLY
+
+aws_iot_mqtt_client_publish.o:     file format elf32-xtensa-le
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .literal.aws_iot_mqtt_internal_serialize_ack 00000010  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  1 .literal.aws_iot_mqtt_internal_deserialize_publish 00000010  00000000  00000000  00000044  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  2 .literal.aws_iot_mqtt_internal_deserialize_ack 0000000c  00000000  00000000  00000054  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  3 .literal.aws_iot_mqtt_publish 00000044  00000000  00000000  00000060  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  4 .text         00000000  00000000  00000000  000000a4  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  5 .data         00000000  00000000  00000000  000000a4  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+  6 .bss          00000000  00000000  00000000  000000a4  2**0
+                  ALLOC
+  7 .text.aws_iot_mqtt_internal_serialize_ack 00000076  00000000  00000000  000000a4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  8 .text.aws_iot_mqtt_internal_deserialize_publish 000000b4  00000000  00000000  0000011c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  9 .text.aws_iot_mqtt_internal_deserialize_ack 0000007a  00000000  00000000  000001d0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 10 .text.aws_iot_mqtt_publish 0000019a  00000000  00000000  0000024c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 11 .comment      0000003b  00000000  00000000  000003e6  2**0
+                  CONTENTS, READONLY
+ 12 .xtensa.info  00000038  00000000  00000000  00000421  2**0
+                  CONTENTS, READONLY
+ 13 .xt.lit       00000020  00000000  00000000  00000459  2**0
+                  CONTENTS, RELOC, READONLY
+ 14 .xt.prop      000001b0  00000000  00000000  00000479  2**0
+                  CONTENTS, RELOC, READONLY
+
+aws_iot_mqtt_client_subscribe.o:     file format elf32-xtensa-le
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .literal._aws_iot_mqtt_deserialize_suback$constprop$0 00000010  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  1 .literal._aws_iot_mqtt_serialize_subscribe$constprop$1 0000001c  00000000  00000000  00000044  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  2 .literal.aws_iot_mqtt_subscribe 0000002c  00000000  00000000  00000060  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  3 .literal.aws_iot_mqtt_resubscribe 0000002c  00000000  00000000  0000008c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  4 .text         00000000  00000000  00000000  000000b8  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  5 .data         00000000  00000000  00000000  000000b8  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+  6 .bss          00000000  00000000  00000000  000000b8  2**0
+                  ALLOC
+  7 .text._aws_iot_mqtt_deserialize_suback$constprop$0 00000096  00000000  00000000  000000b8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  8 .text._aws_iot_mqtt_serialize_subscribe$constprop$1 000000ae  00000000  00000000  00000150  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  9 .text.aws_iot_mqtt_subscribe 0000017a  00000000  00000000  00000200  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 10 .text.aws_iot_mqtt_resubscribe 00000117  00000000  00000000  0000037c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 11 .comment      0000003b  00000000  00000000  00000493  2**0
+                  CONTENTS, READONLY
+ 12 .xtensa.info  00000038  00000000  00000000  000004ce  2**0
+                  CONTENTS, READONLY
+ 13 .xt.lit       00000020  00000000  00000000  00000506  2**0
+                  CONTENTS, RELOC, READONLY
+ 14 .xt.prop      00000264  00000000  00000000  00000526  2**0
+                  CONTENTS, RELOC, READONLY
+
+aws_iot_mqtt_client_unsubscribe.o:     file format elf32-xtensa-le
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .literal.aws_iot_mqtt_unsubscribe 0000004c  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  1 .text         00000000  00000000  00000000  00000080  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  2 .data         00000000  00000000  00000000  00000080  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+  3 .bss          00000000  00000000  00000000  00000080  2**0
+                  ALLOC
+  4 .text.aws_iot_mqtt_unsubscribe 000001c0  00000000  00000000  00000080  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  5 .comment      0000003b  00000000  00000000  00000240  2**0
+                  CONTENTS, READONLY
+  6 .xtensa.info  00000038  00000000  00000000  0000027b  2**0
+                  CONTENTS, READONLY
+  7 .xt.lit       00000008  00000000  00000000  000002b3  2**0
+                  CONTENTS, RELOC, READONLY
+  8 .xt.prop      00000108  00000000  00000000  000002bb  2**0
+                  CONTENTS, RELOC, READONLY
+
+aws_iot_mqtt_client_yield.o:     file format elf32-xtensa-le
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .literal._aws_iot_mqtt_handle_disconnect 00000004  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  1 .literal.aws_iot_mqtt_yield 0000005c  00000000  00000000  00000038  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  2 .text         00000000  00000000  00000000  00000094  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  3 .data         00000000  00000000  00000000  00000094  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+  4 .bss          00000000  00000000  00000000  00000094  2**0
+                  ALLOC
+  5 .text._aws_iot_mqtt_handle_disconnect 0000003c  00000000  00000000  00000094  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  6 .text.aws_iot_mqtt_yield 00000202  00000000  00000000  000000d0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  7 .comment      0000003b  00000000  00000000  000002d2  2**0
+                  CONTENTS, READONLY
+  8 .xtensa.info  00000038  00000000  00000000  0000030d  2**0
+                  CONTENTS, READONLY
+  9 .xt.lit       00000010  00000000  00000000  00000345  2**0
+                  CONTENTS, RELOC, READONLY
+ 10 .xt.prop      00000240  00000000  00000000  00000355  2**0
+                  CONTENTS, RELOC, READONLY
+
+aws_iot_shadow.o:     file format elf32-xtensa-le
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .literal.aws_iot_shadow_reset_last_received_version 00000004  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  1 .literal.aws_iot_shadow_get_last_received_version 00000004  00000000  00000000  00000038  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  2 .literal.aws_iot_shadow_enable_discard_old_delta_msgs 00000004  00000000  00000000  0000003c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  3 .literal.aws_iot_shadow_disable_discard_old_delta_msgs 00000004  00000000  00000000  00000040  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  4 .literal.aws_iot_shadow_free 00000004  00000000  00000000  00000044  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  5 .literal.aws_iot_shadow_init 00000020  00000000  00000000  00000048  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  6 .literal.aws_iot_shadow_connect 00000038  00000000  00000000  00000068  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  7 .literal.aws_iot_shadow_register_delta 00000008  00000000  00000000  000000a0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  8 .literal.aws_iot_shadow_yield 00000008  00000000  00000000  000000a8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  9 .literal.aws_iot_shadow_disconnect 00000004  00000000  00000000  000000b0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 10 .literal.aws_iot_shadow_update 0000000c  00000000  00000000  000000b4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 11 .literal.aws_iot_shadow_delete 0000000c  00000000  00000000  000000c0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 12 .literal.aws_iot_shadow_get 0000000c  00000000  00000000  000000cc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 13 .literal.aws_iot_shadow_set_autoreconnect_status 00000004  00000000  00000000  000000d8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 14 .text         00000000  00000000  00000000  000000dc  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 15 .data         00000000  00000000  00000000  000000dc  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+ 16 .bss          00000000  00000000  00000000  000000dc  2**0
+                  ALLOC
+ 17 .text.aws_iot_shadow_reset_last_received_version 0000000c  00000000  00000000  000000dc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 18 .text.aws_iot_shadow_get_last_received_version 0000000a  00000000  00000000  000000e8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 19 .text.aws_iot_shadow_enable_discard_old_delta_msgs 0000000d  00000000  00000000  000000f4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 20 .text.aws_iot_shadow_disable_discard_old_delta_msgs 0000000d  00000000  00000000  00000104  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 21 .text.aws_iot_shadow_free 00000014  00000000  00000000  00000114  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 22 .rodata       00000034  00000000  00000000  00000128  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 23 .text.aws_iot_shadow_init 0000007a  00000000  00000000  0000015c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 24 .rodata.str1.1 00000030  00000000  00000000  000001d6  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 25 .text.aws_iot_shadow_connect 000000c4  00000000  00000000  00000208  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 26 .text.aws_iot_shadow_register_delta 00000030  00000000  00000000  000002cc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 27 .text.aws_iot_shadow_yield 0000001c  00000000  00000000  000002fc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 28 .text.aws_iot_shadow_disconnect 00000010  00000000  00000000  00000318  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 29 .text.aws_iot_shadow_update 00000040  00000000  00000000  00000328  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 30 .text.aws_iot_shadow_delete 00000046  00000000  00000000  00000368  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 31 .text.aws_iot_shadow_get 00000046  00000000  00000000  000003b0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 32 .text.aws_iot_shadow_set_autoreconnect_status 00000012  00000000  00000000  000003f8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 33 .bss.deleteAcceptedTopic 00000050  00000000  00000000  0000040a  2**0
+                  ALLOC
+ 34 .rodata.ShadowConnectParametersDefault 00000010  00000000  00000000  0000040c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, DATA
+ 35 .rodata.ShadowInitParametersDefault 0000001c  00000000  00000000  0000041c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, DATA
+ 36 .comment      0000003b  00000000  00000000  00000438  2**0
+                  CONTENTS, READONLY
+ 37 .xtensa.info  00000038  00000000  00000000  00000473  2**0
+                  CONTENTS, READONLY
+ 38 .xt.lit       00000070  00000000  00000000  000004ab  2**0
+                  CONTENTS, RELOC, READONLY
+ 39 .xt.prop      0000036c  00000000  00000000  0000051b  2**0
+                  CONTENTS, RELOC, READONLY
+
+aws_iot_shadow_actions.o:     file format elf32-xtensa-le
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .literal.aws_iot_shadow_internal_action 00000020  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  1 .text         00000000  00000000  00000000  00000054  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  2 .data         00000000  00000000  00000000  00000054  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+  3 .bss          00000000  00000000  00000000  00000054  2**0
+                  ALLOC
+  4 .text.aws_iot_shadow_internal_action 000000c4  00000000  00000000  00000054  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  5 .comment      0000003b  00000000  00000000  00000118  2**0
+                  CONTENTS, READONLY
+  6 .xtensa.info  00000038  00000000  00000000  00000153  2**0
+                  CONTENTS, READONLY
+  7 .xt.lit       00000008  00000000  00000000  0000018b  2**0
+                  CONTENTS, RELOC, READONLY
+  8 .xt.prop      000000c0  00000000  00000000  00000193  2**0
+                  CONTENTS, RELOC, READONLY
+
+aws_iot_shadow_json.o:     file format elf32-xtensa-le
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .literal.convertDataToString 00000038  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  1 .literal.emptyJsonWithClientToken 00000038  00000000  00000000  0000006c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  2 .literal.resetClientTokenSequenceNum 00000004  00000000  00000000  000000a4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  3 .literal.aws_iot_shadow_internal_get_request_json 00000004  00000000  00000000  000000a8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  4 .literal.aws_iot_shadow_internal_delete_request_json 00000004  00000000  00000000  000000ac  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  5 .literal.aws_iot_shadow_init_json_document 00000008  00000000  00000000  000000b0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  6 .literal.aws_iot_shadow_add_desired 00000030  00000000  00000000  000000b8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  7 .literal.aws_iot_shadow_add_reported 00000030  00000000  00000000  000000e8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  8 .literal.FillWithClientTokenSize 00000010  00000000  00000000  00000118  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  9 .literal.aws_iot_fill_with_client_token 00000004  00000000  00000000  00000128  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 10 .literal.aws_iot_finalize_json_document 00000024  00000000  00000000  0000012c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 11 .literal.isJsonValidAndParse 0000002c  00000000  00000000  00000150  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 12 .literal.isJsonKeyMatchingAndUpdateValue 00000038  00000000  00000000  0000017c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 13 .literal.isReceivedJsonValid 00000020  00000000  00000000  000001b4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 14 .literal.extractClientToken 00000038  00000000  00000000  000001d4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 15 .literal.extractVersionNumber 00000010  00000000  00000000  0000020c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 16 .text         00000000  00000000  00000000  0000021c  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 17 .data         00000000  00000000  00000000  0000021c  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+ 18 .bss          00000000  00000000  00000000  0000021c  2**0
+                  ALLOC
+ 19 .rodata.str1.1 000001d8  00000000  00000000  0000021c  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 20 .text.convertDataToString 000000c2  00000000  00000000  000003f4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 21 .text.emptyJsonWithClientToken 00000088  00000000  00000000  000004b8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 22 .text.resetClientTokenSequenceNum 0000000c  00000000  00000000  00000540  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 23 .text.aws_iot_shadow_internal_get_request_json 00000011  00000000  00000000  0000054c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 24 .text.aws_iot_shadow_internal_delete_request_json 00000011  00000000  00000000  00000560  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 25 .text.aws_iot_shadow_init_json_document 00000024  00000000  00000000  00000574  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 26 .text.aws_iot_shadow_add_desired 0000011f  00000000  00000000  00000598  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 27 .text.aws_iot_shadow_add_reported 0000011f  00000000  00000000  000006b8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 28 .text.FillWithClientTokenSize 00000020  00000000  00000000  000007d8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 29 .text.aws_iot_fill_with_client_token 0000001e  00000000  00000000  000007f8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 30 .text.aws_iot_finalize_json_document 00000098  00000000  00000000  00000818  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 31 .text.isJsonValidAndParse 0000006c  00000000  00000000  000008b0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 32 .text.isJsonKeyMatchingAndUpdateValue 00000169  00000000  00000000  0000091c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 33 .text.isReceivedJsonValid 0000005a  00000000  00000000  00000a88  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 34 .text.extractClientToken 000000c2  00000000  00000000  00000ae4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 35 .text.extractVersionNumber 00000045  00000000  00000000  00000ba8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 36 .bss.jsonTokenStruct 00000780  00000000  00000000  00000bf0  2**2
+                  ALLOC
+ 37 .bss.shadowJsonParser 0000000c  00000000  00000000  00000bf0  2**2
+                  ALLOC
+ 38 .bss.clientTokenNum 00000004  00000000  00000000  00000bf0  2**2
+                  ALLOC
+ 39 .comment      0000003b  00000000  00000000  00000bf0  2**0
+                  CONTENTS, READONLY
+ 40 .xtensa.info  00000038  00000000  00000000  00000c2b  2**0
+                  CONTENTS, READONLY
+ 41 .xt.lit       00000080  00000000  00000000  00000c63  2**0
+                  CONTENTS, RELOC, READONLY
+ 42 .xt.prop      000009d8  00000000  00000000  00000ce3  2**0
+                  CONTENTS, RELOC, READONLY
+
+aws_iot_shadow_records.o:     file format elf32-xtensa-le
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .literal.shadow_delta_callback 00000048  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  1 .literal.findIndexOfSubscriptionList 00000008  00000000  00000000  0000007c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  2 .literal.topicNameFromThingAndAction 0000002c  00000000  00000000  00000084  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  3 .literal.unsubscribeFromAcceptedAndRejected 0000002c  00000000  00000000  000000b0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  4 .literal.AckStatusCallback 0000005c  00000000  00000000  000000dc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  5 .literal.initDeltaTokens 0000000c  00000000  00000000  00000138  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  6 .literal.registerJsonTokenOnDelta 0000002c  00000000  00000000  00000144  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  7 .literal.initializeRecords 0000000c  00000000  00000000  00000170  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  8 .literal.isSubscriptionPresent 00000018  00000000  00000000  0000017c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  9 .literal.subscribeToShadowActionAcks 00000038  00000000  00000000  00000194  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 10 .literal.incrementSubscriptionCnt 00000014  00000000  00000000  000001cc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 11 .literal.publishToShadowAction 00000014  00000000  00000000  000001e0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 12 .literal.getNextFreeIndexOfAckWaitList 00000004  00000000  00000000  000001f4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 13 .literal.addToAckWaitList 00000014  00000000  00000000  000001f8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 14 .literal.HandleExpiredResponseCallbacks 00000010  00000000  00000000  0000020c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 15 .text         00000000  00000000  00000000  0000021c  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 16 .data         00000000  00000000  00000000  0000021c  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+ 17 .bss          00000000  00000000  00000000  0000021c  2**0
+                  ALLOC
+ 18 .rodata.str1.1 0000014c  00000000  00000000  0000021c  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 19 .text.shadow_delta_callback 000000ed  00000000  00000000  00000368  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 20 .text.findIndexOfSubscriptionList 00000033  00000000  00000000  00000458  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 21 .text.topicNameFromThingAndAction 0000006a  00000000  00000000  0000048c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 22 .text.unsubscribeFromAcceptedAndRejected 000000f3  00000000  00000000  000004f8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 23 .text.AckStatusCallback 00000142  00000000  00000000  000005ec  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 24 .text.initDeltaTokens 00000025  00000000  00000000  00000730  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 25 .text.registerJsonTokenOnDelta 00000076  00000000  00000000  00000758  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 26 .text.initializeRecords 00000034  00000000  00000000  000007d0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 27 .text.isSubscriptionPresent 0000005e  00000000  00000000  00000804  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 28 .text.subscribeToShadowActionAcks 0000017b  00000000  00000000  00000864  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 29 .text.incrementSubscriptionCnt 00000061  00000000  00000000  000009e0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 30 .text.publishToShadowAction 0000005a  00000000  00000000  00000a44  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 31 .text.getNextFreeIndexOfAckWaitList 0000002b  00000000  00000000  00000aa0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 32 .text.addToAckWaitList 00000065  00000000  00000000  00000acc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 33 .text.HandleExpiredResponseCallbacks 00000050  00000000  00000000  00000b34  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 34 .data.shadowDiscardOldDeltaFlag 00000001  00000000  00000000  00000b84  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+ 35 .bss.shadowJsonVersionNum 00000004  00000000  00000000  00000b88  2**2
+                  ALLOC
+ 36 .bss.deltaTopicSubscribedFlag 00000001  00000000  00000000  00000b88  2**0
+                  ALLOC
+ 37 .bss.tokenTableIndex 00000004  00000000  00000000  00000b88  2**2
+                  ALLOC
+ 38 .bss.tokenTable 00000780  00000000  00000000  00000b88  2**2
+                  ALLOC
+ 39 .comment      0000003b  00000000  00000000  00000b88  2**0
+                  CONTENTS, READONLY
+ 40 .xtensa.info  00000038  00000000  00000000  00000bc3  2**0
+                  CONTENTS, READONLY
+ 41 .xt.lit       00000078  00000000  00000000  00000bfb  2**0
+                  CONTENTS, RELOC, READONLY
+ 42 .xt.prop      00000678  00000000  00000000  00000c73  2**0
+                  CONTENTS, RELOC, READONLY
+
+network_mbedtls_wrapper.o:     file format elf32-xtensa-le
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .literal.iot_tls_connect 00000164  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  1 .literal.iot_tls_write 00000024  00000000  00000000  00000198  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  2 .literal.iot_tls_read 00000020  00000000  00000000  000001bc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  3 .literal.iot_tls_disconnect 00000008  00000000  00000000  000001dc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  4 .literal.iot_tls_destroy 00000020  00000000  00000000  000001e4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  5 .literal.iot_tls_init 00000018  00000000  00000000  00000204  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  6 .text         00000000  00000000  00000000  0000021c  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  7 .data         00000000  00000000  00000000  0000021c  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+  8 .bss          00000000  00000000  00000000  0000021c  2**0
+                  ALLOC
+  9 .text._iot_tls_verify_cert 00000007  00000000  00000000  0000021c  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 10 .text.iot_tls_is_connected 00000007  00000000  00000000  00000224  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 11 .rodata.str1.1 0000049d  00000000  00000000  0000022b  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 12 .text.iot_tls_connect 0000046e  00000000  00000000  000006c8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 13 .text.iot_tls_write 000000a2  00000000  00000000  00000b38  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 14 .text.iot_tls_read 000000cf  00000000  00000000  00000bdc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 15 .text.iot_tls_disconnect 0000001a  00000000  00000000  00000cac  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 16 .text.iot_tls_destroy 00000064  00000000  00000000  00000cc8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 17 .text.iot_tls_init 00000040  00000000  00000000  00000d2c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 18 .comment      0000003b  00000000  00000000  00000d6c  2**0
+                  CONTENTS, READONLY
+ 19 .xtensa.info  00000038  00000000  00000000  00000da7  2**0
+                  CONTENTS, READONLY
+ 20 .xt.lit       00000030  00000000  00000000  00000ddf  2**0
+                  CONTENTS, RELOC, READONLY
+ 21 .xt.prop      0000048c  00000000  00000000  00000e0f  2**0
+                  CONTENTS, RELOC, READONLY
+
+threads_freertos.o:     file format elf32-xtensa-le
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .literal.aws_iot_thread_mutex_init 00000004  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  1 .literal.aws_iot_thread_mutex_lock 00000004  00000000  00000000  00000038  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  2 .literal.aws_iot_thread_mutex_trylock 00000004  00000000  00000000  0000003c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  3 .literal.aws_iot_thread_mutex_unlock 00000004  00000000  00000000  00000040  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  4 .literal.aws_iot_thread_mutex_destroy 00000004  00000000  00000000  00000044  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  5 .text         00000000  00000000  00000000  00000048  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  6 .data         00000000  00000000  00000000  00000048  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+  7 .bss          00000000  00000000  00000000  00000048  2**0
+                  ALLOC
+  8 .text.aws_iot_thread_mutex_init 00000018  00000000  00000000  00000048  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  9 .text.aws_iot_thread_mutex_lock 00000011  00000000  00000000  00000060  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 10 .text.aws_iot_thread_mutex_trylock 00000017  00000000  00000000  00000074  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 11 .text.aws_iot_thread_mutex_unlock 00000015  00000000  00000000  0000008c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 12 .text.aws_iot_thread_mutex_destroy 0000000f  00000000  00000000  000000a4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 13 .comment      0000003b  00000000  00000000  000000b3  2**0
+                  CONTENTS, READONLY
+ 14 .xtensa.info  00000038  00000000  00000000  000000ee  2**0
+                  CONTENTS, READONLY
+ 15 .xt.lit       00000028  00000000  00000000  00000126  2**0
+                  CONTENTS, RELOC, READONLY
+ 16 .xt.prop      000000f0  00000000  00000000  0000014e  2**0
+                  CONTENTS, RELOC, READONLY
+
+timer.o:     file format elf32-xtensa-le
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .literal.has_timer_expired 00000008  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  1 .literal.countdown_ms 00000008  00000000  00000000  0000003c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  2 .literal.left_ms 00000004  00000000  00000000  00000044  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  3 .literal.countdown_sec 00000018  00000000  00000000  00000048  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  4 .text         00000000  00000000  00000000  00000060  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  5 .data         00000000  00000000  00000000  00000060  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+  6 .bss          00000000  00000000  00000000  00000060  2**0
+                  ALLOC
+  7 .text.has_timer_expired 00000034  00000000  00000000  00000060  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  8 .text.countdown_ms 0000001c  00000000  00000000  00000094  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  9 .text.left_ms 00000020  00000000  00000000  000000b0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 10 .rodata.str1.1 0000003e  00000000  00000000  000000d0  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 11 .text.countdown_sec 0000003a  00000000  00000000  00000110  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 12 .text.init_timer 0000000d  00000000  00000000  0000014c  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 13 .comment      0000003b  00000000  00000000  00000159  2**0
+                  CONTENTS, READONLY
+ 14 .xtensa.info  00000038  00000000  00000000  00000194  2**0
+                  CONTENTS, READONLY
+ 15 .xt.lit       00000020  00000000  00000000  000001cc  2**0
+                  CONTENTS, RELOC, READONLY
+ 16 .xt.prop      00000114  00000000  00000000  000001ec  2**0
+                  CONTENTS, RELOC, READONLY

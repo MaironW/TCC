@@ -1,0 +1,127 @@
+https://www.gpsinformation.org/dale/nmea.htm
+
+GSA - Overall Satellite data
+
+	GPS DOP (dilution of precision) and active satellites
+	DOP is an indication of the effect of satellite geometry on the accurary of the fix.
+	Unitless number where smaller is better.
+
+	-------------------------------------------------------------
+	$GPGSA,A,3,04,05,,09,12,,,24,,,,,2.5,1.3,2.1*39
+
+	GSA          Satellite status
+	A            Auto selection of 2D or 3D fix (M = manual)
+	3            3D fix - values include: 1 = no fix
+			               	      2 = 2D fix
+			                      3 = 3D fix
+	04,05...     PRNs of satellites used for fix (space for 12)
+	2.5          PDOP (dilution of precision)
+	1.3          Horizontal dilution of precision (HDOP)
+	2.1    	     Vertical dilution of precision (VDOP)
+	*39          the checksum data, always begins with *
+
+
+GSV - Detailed Satellite data
+
+	Shows data about satellites that the unit might be able to find.
+	It also shows current ability to track this data.
+	Can provide data for up tot 4 satellites per sentence.
+
+	SRN (Signal to Noise Ratio) refers to signal stranght.
+
+	-------------------------------------------------------------
+	$GPGSV,2,1,08,01,40,083,46,02,17,308,41,12,07,344,39,14,22,228,45*75
+
+	GSV          Satellites in view
+	2            Number of sentences for full data
+	1            sentence 1 of 2
+	08           Number of satellites in view
+
+	01           Satellite PRN number
+	40           Elevation, degrees
+	083          Azimuth, degrees
+	46           SNR - higher is better
+	   	for up to 4 satellites per sentence
+	*75          the checksum data, always begins with *
+
+
+GLL - Lat/Lon data
+
+	Geographic Latitude and Longitude is a holdover from Loran data.
+	Kind of old.
+
+	-------------------------------------------------------------
+	$GPGLL,4916.45,N,12311.12,W,225444,A,*1D
+
+	GLL          Geographic position, Latitude and Longitude
+	4916.46,N    Latitude 49 deg. 16.45 min. North
+	12311.12,W   Longitude 123 deg. 11.12 min. West
+	225444       Fix taken at 22:54:44 UTC
+	A            Data Active or V (void)
+	*iD          checksum data
+
+GGA - Fix information
+
+	Essential fix data which provide 3D location and accuracy data.
+
+	-------------------------------------------------------------
+	$GPGGA,123519,4807.038,N,01131.000,E,1,08,0.9,545.4,M,46.9,M,,*47
+			10		11	   12 13	   14 15 16 17 18
+	[0] 	GGA          Global Positioning System Fix Data
+	[1] 	123519       Fix taken at 12:35:19 UTC
+	[2,3]	4807.038,N   Latitude 48 deg 07.038' N
+	[4,5] 	01131.000,E  Longitude 11 deg 31.000' E
+	[6] 	1            Fix quality: 0 = invalid
+		               1 = GPS fix (SPS)
+		               2 = DGPS fix
+		               3 = PPS fix
+			       4 = Real Time Kinematic
+			       5 = Float RTK
+		               6 = estimated (dead reckoning) (2.3 feature)
+			       7 = Manual input mode
+			       8 = Simulation mode
+	[7] 	08           Number of satellites being tracked
+	[8] 	0.9          Horizontal dilution of position
+	[9,10] 	545.4,M      Altitude, Meters, above mean sea level
+	[11,12]	46.9,M       Height of geoid (mean sea level) above WGS84
+		      ellipsoid
+	[13] 	(empty field) time in seconds since last DGPS update
+	[14] 	(empty field) DGPS station ID number
+	[15] 	*47          the checksum data, always begins with *
+
+
+RMC - recommended minimum data for gps
+
+	NMEA has its own version of essential gps position, velocity and time data.
+
+	-------------------------------------------------------------
+	$GPRMC,123519,A,4807.038,N,01131.000,E,022.4,084.4,230394,003.1,W*6A
+
+
+	RMC          Recommended Minimum sentence C
+	123519       Fix taken at 12:35:19 UTC
+	A            Status A=active or V=Void.
+	4807.038,N   Latitude 48 deg 07.038' N
+	01131.000,E  Longitude 11 deg 31.000' E
+	022.4        Speed over the ground in knots
+	084.4        Track angle in degrees True
+	230394       Date - 23rd of March 1994
+	003.1,W      Magnetic Variation
+	*6A          The checksum data, always begins with *
+
+
+VTG - Vector track an Speed over the Ground
+
+	Velocity made good.
+
+	-------------------------------------------------------------
+	$GPVTG,054.7,T,034.4,M,005.5,N,010.2,K*48
+
+	VTG          Track made good and ground speed
+	054.7,T      True track made good (degrees)
+	034.4,M      Magnetic track made good
+	005.5,N      Ground speed, knots
+	010.2,K      Ground speed, Kilometers per hour
+	*48          Checksum
+
+

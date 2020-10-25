@@ -1,0 +1,63 @@
+In archive .pio/build/lolin 32/libulp.a:
+
+ulp.o:     file format elf32-xtensa-le
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .literal.ulp_run 00000030  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  1 .literal.ulp_set_wakeup_period 00000020  00000000  00000000  00000064  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  2 .text         00000000  00000000  00000000  00000084  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  3 .data         00000000  00000000  00000000  00000084  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+  4 .bss          00000000  00000000  00000000  00000084  2**0
+                  ALLOC
+  5 .text.ulp_run 000000ac  00000000  00000000  00000084  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  6 .text.ulp_load_binary 0000001a  00000000  00000000  00000130  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  7 .rodata.str1.1 00000048  00000000  00000000  0000014a  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+  8 .text.ulp_set_wakeup_period 00000072  00000000  00000000  00000194  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  9 .comment      0000003b  00000000  00000000  00000206  2**0
+                  CONTENTS, READONLY
+ 10 .xtensa.info  00000038  00000000  00000000  00000241  2**0
+                  CONTENTS, READONLY
+ 11 .xt.lit       00000010  00000000  00000000  00000279  2**0
+                  CONTENTS, RELOC, READONLY
+ 12 .xt.prop      000000c0  00000000  00000000  00000289  2**0
+                  CONTENTS, RELOC, READONLY
+
+ulp_macro.o:     file format elf32-xtensa-le
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .literal.ulp_process_macros_and_load 000000d0  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  1 .text         00000000  00000000  00000000  00000104  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  2 .data         00000000  00000000  00000000  00000104  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+  3 .bss          00000000  00000000  00000000  00000104  2**0
+                  ALLOC
+  4 .text.reloc_sort_func 0000002c  00000000  00000000  00000104  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  5 .rodata.str1.1 000002cb  00000000  00000000  00000130  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+  6 .text.ulp_process_macros_and_load 000002ee  00000000  00000000  000003fc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  7 .rodata.__func__$3447 00000010  00000000  00000000  000006ea  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+  8 .rodata.__func__$3481 0000001c  00000000  00000000  000006fa  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+  9 .comment      0000003b  00000000  00000000  00000716  2**0
+                  CONTENTS, READONLY
+ 10 .xtensa.info  00000038  00000000  00000000  00000751  2**0
+                  CONTENTS, READONLY
+ 11 .xt.lit       00000008  00000000  00000000  00000789  2**0
+                  CONTENTS, RELOC, READONLY
+ 12 .xt.prop      000002b8  00000000  00000000  00000791  2**0
+                  CONTENTS, RELOC, READONLY

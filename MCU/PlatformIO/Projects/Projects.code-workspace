@@ -1,0 +1,52 @@
+{
+	"folders": [
+		{
+			"path": "Esptest"
+		},
+		{
+			"name": "ESP32Bluetooth",
+			"path": "ESP32Bluetooth"
+		},
+		{
+			"name": "ESP32CoreTest",
+			"path": "ESP32CoreTest"
+		},
+		{
+			"name": "ESP32MPU9250",
+			"path": "ESP32MPU9250"
+		},
+		{
+			"name": "ESP32GPS",
+			"path": "ESP32GPS"
+		},
+		{
+			"name": "TCC",
+			"path": "TCC"
+		},
+		{
+			"name": "ESP32EigenTest",
+			"path": "ESP32EigenTest"
+		},
+		{
+			"name": "ESP32SDcard",
+			"path": "ESP32SDcard"
+		},
+		{
+			"name": "MagCalibration",
+			"path": "MagCalibration"
+		},
+		{
+			"path": "TCCold"
+		},
+		{
+			"name": "ESP32SDfat",
+			"path": "ESP32SDfat"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"random": "cpp",
+			"core": "cpp"
+		}
+	}
+}
