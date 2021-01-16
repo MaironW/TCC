@@ -3,7 +3,7 @@
 This repository contains most of the files used by me, Mairon S. Wolniewicz, to develop the final project of my Aerospace Engineer undergraduation studies at Federal University of Santa Catarina.
 The work was done with support of the [Automation and Control Systems Laboratory (LASC)](https://lasc.ufsc.br/) and coordinated by Prof. Dr. Alexandro Garro Brito.
 
-The text in Portuguese with all the fundaments and metodologies can be found [here](https://repositorio.ufsc.br/handle/123456789/218497). While the video of the presentation can be found [here](https://www.youtube.com/watch?v=W5IHHzp5yvA&feature=youtu.be).
+The text in Portuguese with all the fundaments and metodologies can be found [here](https://repositorio.ufsc.br/handle/123456789/218497). While the video of the presentation can be found [here](https://www.youtube.com/watch?v=W5IHHzp5yvA&feature=youtu.be) and a demo video of the system running is [here](https://www.youtube.com/watch?v=oCGdunOda3U).
 
 ## Abstract
 
