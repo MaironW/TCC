@@ -1,1 +1,0 @@
-"./gps.obj" "./main.obj" "./timer.obj" "./tm4c123gh6pm_startup_ccs.obj" "./uartout.obj" "./uartstdio.obj" "/home/mairon/ti/TivaWare_C_Series/IQmath/ccs/IQmathLib/Debug/IQmathLib.lib" "/home/mairon/ti/TivaWare_C_Series/driverlib/ccs/Debug/driverlib.lib" "../tm4c123gh6pm.cmd" -llibc.a -l"/home/mairon/ti/TivaWare_C_Series/driverlib/ccs/Debug/driverlib.lib" 

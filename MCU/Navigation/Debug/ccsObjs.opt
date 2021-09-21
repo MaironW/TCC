@@ -1,1 +1,0 @@
-"./KalmanFilter.obj" "./MPU9250.obj" "./MadgwickAHRS.obj" "./gps.obj" "./i2c1.obj" "./main.obj" "./timer.obj" "./tm4c123gh6pm_startup_ccs.obj" "./uartout.obj" "./uartstdio.obj" "/home/mairon/ti/TivaWare_C_Series/driverlib/ccs/Debug/driverlib.lib" "../tm4c123gh6pm.cmd" -llibc.a 
